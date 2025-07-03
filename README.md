@@ -4,6 +4,7 @@ A simple and responsive task management app built with **React** and **Tailwind 
 This project was developed as part of a **frontend intern pre-hire assignment**.
 
 ---
+<a href="https://task-scheduler-basic.vercel.app/">LIVE LINK </a>
 
 ## 📌 Features
 
