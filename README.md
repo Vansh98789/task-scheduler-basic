@@ -1,12 +1,111 @@
-# React + Vite
+# 📝 Personal Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive task management app built with **React** and **Tailwind CSS**.  
+This project was developed as part of a **frontend intern pre-hire assignment**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔐 Simple Login (username only, stored in `localStorage`)
+- ✅ Add, Edit, Delete tasks
+- 📅 Display task creation date/time
+- ⏳ Toggle completion status
+- 🧭 Task filtering: All / Completed / Pending
+- 💾 Persistent data using `localStorage`
+- 📱 Fully responsive layout (mobile + desktop)
+- 🎨 Styled with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Tech Stack
+
+| Tech             | Description                            |
+|------------------|----------------------------------------|
+| React            | UI library for building components     |
+| Tailwind CSS     | Utility-first CSS framework            |
+| localStorage API | Web API to persist data in the browser |
+
+---
+
+## 📁 Folder Structure
+
+# 📝 Personal Task Tracker
+
+A simple and responsive task management app built with **React** and **Tailwind CSS**.  
+This project was developed as part of a **frontend intern pre-hire assignment**.
+
+---
+
+## 📌 Features
+
+- 🔐 Simple Login (username only, stored in `localStorage`)
+- ✅ Add, Edit, Delete tasks
+- 📅 Display task creation date/time
+- ⏳ Toggle completion status
+- 🧭 Task filtering: All / Completed / Pending
+- 💾 Persistent data using `localStorage`
+- 📱 Fully responsive layout (mobile + desktop)
+- 🎨 Styled with Tailwind CSS
+
+---
+
+## 🔧 Tech Stack
+
+| Tech             | Description                            |
+|------------------|----------------------------------------|
+| React            | UI library for building components     |
+| Tailwind CSS     | Utility-first CSS framework            |
+| localStorage API | Web API to persist data in the browser |
+
+---
+
+## 📁 Folder Structure
+# 📝 Personal Task Tracker
+
+A simple and responsive task management app built with **React** and **Tailwind CSS**.  
+This project was developed as part of a **frontend intern pre-hire assignment**.
+
+---
+
+## 📌 Features
+
+- 🔐 Simple Login (username only, stored in `localStorage`)
+- ✅ Add, Edit, Delete tasks
+- 📅 Display task creation date/time
+- ⏳ Toggle completion status
+- 🧭 Task filtering: All / Completed / Pending
+- 💾 Persistent data using `localStorage`
+- 📱 Fully responsive layout (mobile + desktop)
+- 🎨 Styled with Tailwind CSS
+
+---
+
+## 🔧 Tech Stack
+
+| Tech             | Description                            |
+|------------------|----------------------------------------|
+| React            | UI library for building components     |
+| Tailwind CSS     | Utility-first CSS framework            |
+| localStorage API | Web API to persist data in the browser |
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── components/ # Reusable UI components
+│ ├── Login.js
+│ ├── TaskFilter.js
+│ ├── TaskForm.js
+│ ├── TaskItem.js
+│ └── TaskList.js
+├── utils/ # Non-UI utilities
+│ └── localStorage.js
+├── App.js # Main app component
+├── index.js # App entry point
+└── index.css # Tailwind base & custom styles
+
+👨‍💻 Author
+Made with ❤️ by Vansh Maheshwari
+
